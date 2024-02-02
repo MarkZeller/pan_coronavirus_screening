@@ -23,22 +23,23 @@ length F2 - R: 92
 ```
 
 Reaction setup:
-| Component				|Volume for 20ul reaction|
+| Component				|Volumes for 20ul reaction|
 |:--------------------------------------|-----------------------:|
-| One-Step SYBR Green Master Mix[^1]	|		 10 	 |
+| One-Step SYBR Green Master Mix[^2]	|		 10 	 |
 | pan_CoV_F1 or pan_CoV_F2		|		  1	 |
 | pan_CoV_R				|		  1	 |
 | Nuclease-free water			|		5.2 	 |
 | RNA template or pan_CoV_gBlock	|		  2	 |
 | qScript One-Step RT[^2]		|		0.8	 |
 
-Cycling conditions:
+
+qPCR conditions:
 | Step                             	| Cycle conditions	|
 |:--------------------------------------|----------------------:|
 | cDNA synthesis		        |   50ºC, 10 min		|
 | Taq activation	                |   95ºC, 5min   	|
 | PCR cycling (40 cycles)               |   95ºC, 10s      	|
-| 			                |   60ºC, 30S[^3]	|
+| 			                |   60ºC, 30s[^3]	|
 
 Add positive samples on a 2% agarose gel along with the positive control to check if the amplicon has the expected size.
 
