@@ -1,6 +1,6 @@
-This repository describes the development of a pan-coronavirus qPCR. It's based on all available coronaviridae reference sequences in GenBank. pan_CoV_F2 should in theory work on all, while pan_CoV_F1 has some mismatches in some of the animal CoVs. pan_CoV_F2 is newly designed, so not sure if it works yet.
+This repository describes the development of a pan-coronavirus qPCR. It's based on all available coronaviridae reference sequences in GenBank. pan_CoV_F2 should in theory work on all, while pan_CoV_F1 has a few mismatches in some of the animal CoVs. pan_CoV_F2 is newly designed, so not sure if it works yet.
 
-Primer and gBlock sequences:
+Primer and gBlock sequences[^1]:
 ```
 >pan_CoV_F1
 ACWCARHTVAAYYTNAARTAYGC
@@ -8,7 +8,7 @@ ACWCARHTVAAYYTNAARTAYGC
 AARTTYTAYGGHGGNTGGVA
 >pan_CoV_R
 TCRCAYTTNGGRTARTCCCA
->pan_CoV_gBlock[^1]
+>pan_CoV_gBlock
 ccctactataactcaaatgaatcttaagtatgccattagtgcaaagaatagagctcgcaccgtagctggtgtctctatctgtagtactatgaccaatagacagtttcatcaaaaattattgaaatcaatagccgccactagaggagctactgtagtaattggaacaagcaaattctatggtggttggcacaacatgttaaaaactgtttatagtgatgtagaaaaccctcaccttatgggttgggattatcctaaatgtgatagagccatg
 ```
 
@@ -42,7 +42,7 @@ Cycling conditions:
 
 Add positive samples on a 2% agarose gel along with the positive control to check if the amplicon has the expected size.
 
-[^1]: Can be used as a positive control for both F1 - R and F2 - R assays
+[^1]: can be used as a positive control for both F1 - R and F2 - R assays
 [^2]: part of the qScript One-Step SYBR Green RT-qPCR kit
 [^3]: data collection on the SYBR green channel
 
