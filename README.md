@@ -43,7 +43,7 @@ qPCR conditions:
 
 Add positive samples on a 2% agarose gel along with the positive control to check if the amplicon has the expected size.
 
-[^1]: can be used as a positive control for both F1 - R and F2 - R assays
+[^1]: dilute gBlock to ~100 copies. can be used as a positive control for both F1 - R and F2 - R assays
 [^2]: part of the qScript One-Step SYBR Green RT-qPCR kit
 [^3]: data collection on the SYBR green channel
 
