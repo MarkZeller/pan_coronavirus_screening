@@ -2,13 +2,13 @@ This repository describes the development of a pan-coronavirus qPCR. It's based 
 
 Primer and gBlock sequences
 '''
->pan_CoV_F1
-ACWCARHTVAAYYTNAARTAYGC
->pan_CoV_F2
-AARTTYTAYGGHGGNTGGVA
->pan_CoV_R
-TCRCAYTTNGGRTARTCCCA
->pan_CoV_gBlock
+/>pan_CoV_F1\n
+ACWCARHTVAAYYTNAARTAYGC\n
+/>pan_CoV_F2\n
+AARTTYTAYGGHGGNTGGVA\n
+/>pan_CoV_R\n
+TCRCAYTTNGGRTARTCCCA\n
+/>pan_CoV_gBlock\n
 ccctactataactcaaatgaatcttaagtatgccattagtgcaaagaatagagctcgcaccgtagctggtgtctctatctgtagtactatgaccaatagacagtttcatcaaaaattattgaaatcaatagccgccactagaggagctactgtagtaattggaacaagcaaattctatggtggttggcacaacatgttaaaaactgtttatagtgatgtagaaaaccctcaccttatgggttgggattatcctaaatgtgatagagccatg
 '''
 
@@ -21,6 +21,7 @@ Tm R: 56.3 ºC	62.1 ºC	67.3 ºC
 length F1 - R: 251
 length F2 - R: 92
 '''
+
 Protocol in a nutshell:
 | Component				|Volume for 20ul reaction|
 |:--------------------------------------|-----------------------:|
@@ -35,9 +36,9 @@ Protocol in a nutshell:
 qPCR cycling conditions:
 | Step                             	| Cycle conditions	|
 |:--------------------------------------|----------------------:|
-| cDNA synthesis		        |   50C, 10 min		|
-| Taq activation	                |   95C, 5min   	|
-| PCR cycling (40 cycles)               |   95C, 10s      	|
- 			                |   60C, 30S[^2]	|
-[^2]data collection
+| cDNA synthesis		        |   50ºC, 10 min		|
+| Taq activation	                |   95ºC, 5min   	|
+| PCR cycling (40 cycles)               |   95ºC, 10s      	|
+| 			                |   60ºC, 30S[^2]	|
+[^2]data collection on the SYBR green channel
 
